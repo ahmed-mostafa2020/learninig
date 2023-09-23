@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 5000px;
+}
+
+/* ............................login...................................... */
+/* .log{
+  width: 300px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 100px auto;
+  text-align: center;
+  box-shadow: 0 0 20px #ddd;
+  overflow: hidden;
+  position: absolute;
+  top: -350px;
+  left: 200px;
+  right: 250px;
+}
+h2{
+  padding: 10px;
+  display: none;
+}
+p{
+  display: inline-block;
+  padding: 10px;
+  opacity: 0;
+}
+#name,#pass{
+  border: none;
+  height: 35px;
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+  display: none;
+
+}
+button{
+  background-color: rgb(225, 225, 225);
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  margin: 10px 0 0 100px ;
+  position: absolute;
+  right: -100px;
+  cursor: pointer;
+}
+label,#remember{
+  margin-top: 15px;
+  position: absolute;
+  left: -150px;
+} */
+
+/* ...............................future event.......................................... */
+
+ /* .btn{
+  background-color: #f00;
+  color: #eee;
+  padding: 10px;
+  margin: 20px ;
+  border: none;
+  border-radius: 5px;
+  font: 16px bold;
+  cursor: pointer;
+}
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px cadetblue;
+  cursor: pointer;
+} */
+
+/* ........................text selected and copied................................................. */
+
+/* textarea{
+  width: 270px;
+  height: 70px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  font: 18px bold ;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border-color: #e91e63;
+  background-color: rgb(252, 247, 247);
+  color: #2a0813;
+  position: relative;
+}
+
+button{
+  background-color: #e91e63;
+  color: #eee;
+  font: 18px bold ;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin: 20px auto;
+  padding: 5px 15px;
+  border: none;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span{
+  display: none;
+  position: absolute;
+  left: 60%;
+  top: 25px;
+  background-color: #edbdcc;
+  padding: 5px;
+  border-radius: 5px;
+  color: #2a0813;
+} */
+
+/*  ........................scroll Up..............................................  */
+
+/* div{
+  background-color: #ee1459 ;
+  color: aliceblue;
+  font: 20px bold;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+} */
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: -30px;
+  background-color: #ff5722;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.show {
+  right: 10px;
+}
+
+/*  .........................clone.............................................  */
+
+/* div , button {
+  background-color: aliceblue;
+  margin: 20px auto;
+  padding: 10px;
+} */
+
+/*  ..........................replaceWith............................................  */
+
+/* div ,input  {
+  background-color: aliceblue;
+  margin: 20px ;
+  width: 300px ;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
+  font: 18px bold;
+}
+input{
+  outline: none;
+  border-color: cadetblue;
+}
+button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 130px ;
+  background-color: rgb(202, 230, 230);
+  color: black;
+  font: 20px bold;
+  border: none;
+  display: none;
+  cursor: pointer;
+} */
+
+/*  ......................................................................  */
+
+  

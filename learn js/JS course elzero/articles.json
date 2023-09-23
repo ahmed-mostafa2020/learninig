@@ -1,0 +1,39 @@
+
+[
+{
+"id": 1,
+"writer": "Ahmed",
+"catagory": "history",
+"topic": "wars",
+"content": "fights"
+},
+{
+"id": 2,
+"writer": "ali",
+"catagory": "history",
+"topic": "wars",
+"content": "fights"
+},
+{
+"id": 3,
+"writer": "amr",
+"catagory": "history",
+"topic": "wars",
+"content": "fights"
+},
+{
+"id": 4,
+"writer": "moaz",
+"catagory": "history",
+"topic": "wars",
+"content": "fights"
+},
+{
+"id": 5,
+"writer": "sasa",
+"catagory": "history",
+"topic": "wars",
+"content": "fights"
+}
+]
+    

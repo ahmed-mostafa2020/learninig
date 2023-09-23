@@ -1,0 +1,547 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Arial;
+  /* background-color: black; */
+  /* height: 5000px; */
+}
+
+/* start of video no 3  => "create images slider"  */
+/*
+.slider-container {
+  margin: 10px auto;
+  width: 800px;
+  height: 250px;
+  position: relative;
+}
+.slider-container img {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  z-index: 1;
+}
+.slider-container img.active {
+  opacity: 1;
+}
+.slider-container .slide-number {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 20px;
+  z-index: 2;
+  border-radius: 6px;
+}
+.slider-controls {
+  width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.slider-controls .prev,
+.slider-controls .next {
+  background-color: #009688;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  user-select: none;
+  width: 20%;
+}
+.slider-controls .prev {
+  float: left;
+}
+.slider-controls .next {
+  float: right;
+}
+.slider-controls .prev.disabled,
+.slider-controls .next.disabled {
+  background-color: rgba(0, 150, 136, 0.5);
+  cursor: no-drop;
+}
+.slider-controls .indicators {
+  width: 60%;
+  float: left;
+}
+.slider-controls .indicators ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+.slider-controls .indicators ul li {
+  display: inline-block;
+  background-color: #f6f6f6;
+  color: #333;
+  font-weight: bold;
+  height: 28px;
+  width: 28px;
+  border-radius: 4px;
+  margin: 0 2px;
+  line-height: 28px;
+  cursor: pointer;
+}
+.slider-controls .indicators ul li.active {
+  background-color: #009688;
+  color: #fff;
+}
+*/
+/* end of video no 3  => "create images slider"  */
+
+
+/* start of video no 6  => "Mix Blend Loading" ..................................................... */
+/*
+  div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  div span {
+    font-size: 80px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1;
+    mix-blend-mode: difference; /*new property..............................
+  }
+  div::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    animation: move 4s linear infinite;
+  }
+  @keyframes move {
+    0%,
+    100% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 100px);
+    }
+  }
+  */
+/* end of video no 6  => "Mix Blend Loading" */
+
+/* start of video no 7  => "Animated Wavy Background" ..................................................... */
+/*
+.page {
+    height: 100vh;
+  }
+  .page::before {
+    content: "";
+    position: fixed;
+    width: 300%;
+    height: 100%;
+    background-color: #0075ff;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) skew(0, 10deg);
+    border-radius: 50%;
+    z-index: -1;
+    animation: waving 5s ease-in-out infinite alternate;
+  }
+  .card {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ddd inset;
+  }
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .card h2 {
+    margin: 0;
+  }
+  .card p {
+    margin: 0;
+  }
+  @keyframes waving {/*skew with translate........................
+    from {
+      transform: translateX(-50%) skew(0, -10deg);
+    }
+    to {
+      transform: translateX(-30%) skew(10deg, 0);
+    }
+  }
+*/
+/* end of video no 7  => "Animated Wavy Background"*/
+
+
+/* start of video no 8  => " Burger Icon Transform Effects" ............................................... */
+
+
+
+/* end of video no 8  => " Burger Icon Transform Effects" */
+
+
+/* start of video no 10  => " Increase Numbers On Scrolling" ............................................... */
+/*
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section:first-child {
+    background-color: #aaa;
+  }
+  section:nth-child(2) {
+    background-color: #bbb;
+  }
+  section:nth-child(3) {
+    background-color: #ccc;
+  }
+  section:last-of-type {
+    background-color: #eee;
+  }
+  .nums {
+    width: 400px;
+    display: flex;
+  }
+  .nums .num {
+    flex: 1;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+  }
+*/
+/* end of video no 10  => "Increase Numbers On Scrolling" */
+
+
+/* start of video no 11  => " Animate Width On Scrolling" ............................................... */
+/*
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+    margin: 0;
+  }
+  section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section:first-child {
+    background-color: #aaa;
+  }
+  section:nth-child(2) {
+    background-color: #bbb;
+  }
+  section:nth-child(3) {
+    background-color: #ccc;
+  }
+  section:last-of-type {
+    background-color: #eee;
+  }
+  .progress {
+    position: relative;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    margin: 10px;
+  }
+  .progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgb(92, 156, 205);
+    transition: width 0.3s linear;
+  }
+*/
+/* end of video no 11  => " Animate Width On Scrolling" */
+
+
+/* start of video no 12  => "Create Countdown Timer"..................................................... */
+/* .time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.days,.hours,.minutes,.seconds{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(90, 174, 207);
+    color: rgb(16, 16, 15);
+} */
+/* end of video no 12  => "Create Countdown Timer" */
+
+/* start of video no 14  => "Count Input Characters And Fill Borders" .................................*/
+/*
+  div {
+    width: 300px;
+    margin: 20px auto;
+  }
+  input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #d7d7d7;
+    background-color: #fbfbfb;
+  }
+  input:focus {
+    outline: none;
+  }
+  .progress {
+    background-color: #2196f3;
+    height: 2px;
+    width: 0;
+    display: block;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+  }
+  .count {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .zero {
+    font-weight: bold;
+    color: red;
+  }
+  .full {
+    background-color: red;
+  }
+*/
+/* end of video no 14  => "Count Input Characters And Fill Borders" */
+
+
+/* start of video no 17 => "Fullscreen Navigation"..................................... */
+/*
+.toggle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    background-color: #eee;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px;
+  }
+.toggle span {
+    width: 100%;
+    background-color: #777;
+    height: 4px;
+    transition: 0.5s;
+}
+.toggle:hover span {
+    background-color: #333;
+}
+nav {
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    transform: translateY(-100%);
+}
+nav.open {
+    transform: translateY(0);
+  }
+nav .close {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+nav .close:hover {
+    color: indianred;
+    border-color: indianred;
+  }
+  nav a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80px;
+    transition: 0.5s;
+  }
+  nav a:hover {
+    background-color: rgb(0 0 0 / 50%);
+  }
+*/
+/* end of video no 17  => "Fullscreen Navigation" */
+
+
+/* start of video no 20  => "Random Background Color"..................................... */
+/*
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+    margin: 20px auto;
+}
+*/
+/* end of video no 20  => "Random Background Color" */
+
+
+/* start of video no 21  => "Create Our Work Filter"..................................... */
+/*
+.switcher {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .switcher li {
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+    min-width: 105px;
+    text-align: center;
+    transition: 0.2s;
+  }
+  .switcher li.active,
+  .switcher li:hover {
+    background-color: red;
+    color: white;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+  }
+  .gallery img {
+    margin-bottom: 10px;
+    transition: 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+*/
+/* end of video no 21  => "Create Our Work Filter" */
+
+
+/* start of video no 22   => "Generate Random Serial Number"..................................... */
+/*
+.serial {
+    width: 200px;
+    padding: 20px;
+    background-color: #eee;
+    margin: 40px auto 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    height: 66.5px;
+  }
+  .generate {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    user-select: none;
+  }
+  .generate:hover {
+    background-color: #f0440e;
+  }
+*/
+/* end of video no 22  => "Generate Random Serial Number" */
+
+
+/* start of video no 24  => "Create Tabs"..................................... */
+/*
+.tabs{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tabs li {
+    padding: 10px;
+    background-color: #f6f4f4;
+    border-right: 1px solid white;
+    cursor: pointer;
+    transition: 0.2s;
+    }
+    .tabs li.active,
+    .tabs li:hover {
+    background-color: #ddd;
+    }
+    .content {
+    background-color: #ddd;
+    width: 600px;
+    }
+    .content > div {
+    padding: 20px;
+    }
+    .content > div:not(:first-child) {
+    display: none;
+    }
+*/
+/* end of video no 24  => "Create Tabs" */
+
+
+/* start of video no 25  => "Scroll To Top"..................................... */
+/*
+.up {
+    position: fixed;
+    bottom: 10px;
+    right: -30px;
+    background-color: #ff5722;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    font-family: Arial, Tahoma;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .show {
+    right: 10px;
+  }
+  */
+/* end of video no 25  => "Scroll To Top" */
